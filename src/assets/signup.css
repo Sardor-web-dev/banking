@@ -1,0 +1,39 @@
+@import url(/index.css);
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    height: 100vh;
+}
+
+input {
+    width: 438px;
+    height: 56px;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+button {
+    width: 438px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: #0047FF;
+    color: white;
+    font-weight: 600;
+    border: none;
+    a{
+        color: white;
+    }
+
+}
+a{
+    text-decoration: none;
+    color: #0047FF;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+}
